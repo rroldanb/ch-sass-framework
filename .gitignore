@@ -1,0 +1,6 @@
+RR_Test/
+
+node_modules
+dist
+
+.parcel-cache

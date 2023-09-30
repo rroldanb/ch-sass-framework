@@ -1,0 +1,14 @@
+{
+  "name": "ch-sass-framework",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "defaults",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}
