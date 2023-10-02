@@ -43,7 +43,7 @@
           <input type="text" name="name" placeholder="Nombre" required>
           <input type="email" name="email" placeholder="Correo electrónico" required>
 
-          <button class="btn" type="submit">Subscribirse</button>
+          <button class="btn btn-primary btn-sm" type="submit">Subscribirse</button>
         </form>
       </section>
 
@@ -94,106 +94,109 @@
         <h2>Botones</h2>
 
         <h3>Por defecto</h3>
-        <div>
+        <div class="flex-container">
           <button class="btn" >Relleno</button>
           <button class="btn btn-outline" >Bordeado</button>
           <button class="btn btn-plain" >Plano</button>
         </div>
 
         <h3>Primario</h3>
-        <div>
+        <div class="flex-container">
           <button class="btn btn-primary" >Relleno</button>
           <button class="btn btn-outline btn-primary" >Bordeado</button>
           <button class="btn btn-plain btn-primary" >Plano</button>
         </div>
 
         <h3>Secundario</h3>
-        <div>
+        <div class="flex-container">
           <button class="btn btn-secondary" >Relleno</button>
           <button class="btn btn-outline btn-secondary" >Bordeado</button>
           <button class="btn btn-plain btn-secondary" >Plano</button>
         </div>
 
         <h3>Tamaños</h3>
-        <div>
+        <div class="flex-container">
           <button class="btn btn-sm" >Pequeño</button>
           <button class="btn" >Mediano</button>
           <button class="btn btn-lg" >Grande</button>
         </div>
 
         <h3>Bloque</h3>
-        <div>
-          <button class="btn btn-block" >Boton block</button>
-          <button class="btn btn-block" >Boton block</button>
-          <button class="btn btn-block" >Boton block</button>
+        <div class="flex-container wrap">
+          <button class="btn btn-block" >Boton block por defecto</button>
+          <button class="btn btn-block btn-primary" >Boton block primary</button>
+          <button class="btn btn-block btn-secondary" >Boton block secondary</button>
         </div>
 
         <h3>Desabilitados</h3>
-        <div>
-          <button disabled>Boton por defecto</button>
-          <button disabled>Boton primario</button>
-          <button disabled>Boton secundario</button>
+        <div class="flex-container">
+          <button class="btn" disabled>Boton por defecto</button>
+          <button class="btn btn-primary" disabled>Boton primario</button>
+          <button class="btn btn-secondary" disabled>Boton secundario</button>
         </div>
       </section>
 
       <section class="base-section"> <!-- Cards -->
         <h2>Cards</h2>
 
-        <div> <!-- Contenedor Carta 1 - 1 img 1 h5 1p 1 action -->
-          <div> <!-- Carta 1 - 1 img 1 h5 1p 1 action -->
-            <img src="https://picsum.photos/540/720">
+        <div class="flex-container"> <!-- Contenedor Carta 1 - 1 img 1 h5 1p 1 action -->
+          <div class="card"> <!-- Carta 1 - 1 img 1 h5 1p 1 action -->
+            <img class="card-image" src="https://picsum.photos/540/720">
             <div>
-              <h5>Card example</h5>
+              <h5 class="card-title">Card example</h5>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
                 dignissimos cupiditate numquam culpa corrupti alias vitae sit voluptas ut maiores autem repellendus
                 maxime
                 eaque, modi fugit velit similique.</p>
 
-              <div>
-                <a href="#">Action</a>
+              <div class="card-actions">
+                <a href="#" class="btn btn-block btn-primary">Action</a>
               </div>
             </div>
           </div>
-        </div>
-        <div> <!-- Contenedor Carta 2 - 1 img 1 h5 1p 2 action -->
-          <div> <!-- Carta 2 - 1 img 1 h5 1p 2 action -->
-            <img src="https://picsum.photos/720/480">
+        <!-- </div> -->
+        <!-- <div class="flex-container">  -->
+          <!-- Contenedor Carta 2 - 1 img 1 h5 1p 2 action -->
+          <div class="card"> <!-- Carta 2 - 1 img 1 h5 1p 2 action -->
+            <img class="card-image" src="https://picsum.photos/720/480">
 
             <div>
-              <h5>Card example 2</h5>
+              <h5 class="card-title">Card example 2</h5>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
                 dignissimos cupiditate numquam culpa corrupti alias vitae sit voluptas ut maiores autem repellendus
                 maxime
                 eaque, modi fugit velit similique.</p>
 
-              <div>
-                <a href="#">Action</a>
-                <a href="#">Action</a>
+              <div class="card-actions">
+                <a href="#" class="btn btn-block btn-sm btn-secondary">Action</a>
+                <a href="#" class="btn btn-block btn-sm btn-primary">Action</a>
               </div>
             </div>
           </div>
-        </div>
-        <div> <!-- Contenedor Carta 3 - 0 img 1 h5 1p 1 action -->
-          <div> <!-- Carta 3 - 0 img 1 h5 1p 1 action -->
-            <h5>Card example 3</h5>
+        <!-- </div> -->
+        <!-- <div class="flex-container">  -->
+          <!-- Contenedor Carta 3 - 0 img 1 h5 1p 1 action -->
+          <div class="card"> <!-- Carta 3 - 0 img 1 h5 1p 1 action -->
+            <h5 class="card-title">Card example 3</h5>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
               dignissimos cupiditate numquam culpa corrupti alias vitae sit voluptas ut maiores autem repellendus maxime
               eaque, modi fugit velit similique.</p>
 
-            <div>
-              <a href="#">Action</a>
-              <a href="#">Action</a>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-secondary">Action</a>
+              <a href="#" class="btn btn-sm btn-primary">Action</a>
             </div>
           </div>
-        </div>
-        <div> <!-- Contenedor Carta 4 - 0 img 1 h5 1p 0 action -->
-          <div> <!-- Carta 4 - 0 img 1 h5 1p 0 action -->
-            <h5>Card example 4</h5>
+        <!-- </div> -->
+        <!-- <div class="flex-container"> -->
+          <!-- Contenedor Carta 4 - 0 img 1 h5 1p 0 action -->
+          <div class="card"> <!-- Carta 4 - 0 img 1 h5 1p 0 action -->
+            <h5 class="card-title">Card example 4</h5>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
               dignissimos cupiditate numquam culpa corrupti alias vitae sit voluptas ut maiores autem repellendus maxime
               eaque, modi fugit velit similique.</p>
           </div>

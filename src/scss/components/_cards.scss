@@ -1,0 +1,56 @@
+$card-bg: var(--#{$prefix}-card-bg, white) !default;
+$card-radius: var(--#{$prefix}-card-radius, 12px) !default;
+$card-border: var(--#{$prefix}-card-border, $color-slate-200) !default;
+
+.card {
+/*   overflow: hidden;
+  position: relative;
+  transition: all .3s ease;
+  box-shadow: $shadow-xl;
+  border-radius: $card-radius;
+
+  border: 1px solid $card-border;
+  background-color: $card-bg; */
+
+  border: 1px solid $card-border;
+  overflow: hidden;
+  position: relative;
+  transition: all .3s ease;
+  box-shadow: $shadow-xl;
+  border-radius: $card-radius;
+  background-color: $card-bg;
+
+
+
+
+
+  &:hover {
+    box-shadow: $shadow-md;
+  }
+
+  &-content {
+    padding: 24px 18px;
+  }
+
+  &-title {
+    font-size: $font-2xl;
+    font-weight: $font-bold;
+  }
+
+  &-image {
+    width: 100%;
+    height: auto;
+  }
+
+  &-text {
+    margin-bottom: 24px;
+  }
+
+  &-actions {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

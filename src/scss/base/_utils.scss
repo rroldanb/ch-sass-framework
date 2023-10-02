@@ -8,3 +8,13 @@
   padding-left: 16px;
   padding-right: 16px;
 }
+
+.flex-container {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+}
