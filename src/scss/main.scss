@@ -1,12 +1,16 @@
-//VARIABLES
+// VARIABLES
 @import 'variables';
-//BASE
+// MIXINS
+@import 'mixins';
+// BASE
 @import 'base/base';
 @import 'base/typography';
 @import 'base/utils';
-//COMPONENTS
+// COMPONENTS
+@import 'components/buttons';
+@import 'components/links';
 @import 'components/navbar';
-//VENDORS
-@import 'vendors';
 // LAYOUTS
 @import 'layouts/base-layout';
+// VENDORS
+@import 'vendors';

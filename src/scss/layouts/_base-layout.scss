@@ -1,4 +1,3 @@
-
 $header-bg-color: var(--#{$prefix}-header-bg-color, $color-slate-50);
 $header-border-color: var(--#{$prefix}-header-border-color, $color-slate-200);
 
@@ -23,7 +22,7 @@ $footer-text-color: var(--#{$prefix}-footer-text-color, $body-text-color);
     z-index: 9000;
     position: fixed;
     box-shadow: 0 0 1em -0.125em rgb(10 10 10 / 10%),
-    0 0 0 1px rgb(10 10 10 / 2%);
+      0 0 0 1px rgb(10 10 10 / 2%);
 
     border-bottom: 1px solid $header-border-color;
     background-color: $header-bg-color;
@@ -41,6 +40,7 @@ $footer-text-color: var(--#{$prefix}-footer-text-color, $body-text-color);
     font-weight: 400;
     text-align: center;
     background-color: $footer-bg-color;
+
     p {
       color: $footer-text-color;
     }
@@ -57,10 +57,9 @@ $footer-text-color: var(--#{$prefix}-footer-text-color, $body-text-color);
     max-width: 540px;
     text-align: center;
     line-height: $leading-tight;
-    font-weight: $font-bold;
     font-family: $font-primary;
+    font-weight: $font-bold;
   }
-
 }
 
 .base-section {

@@ -6,13 +6,12 @@
   align-items: center;
   justify-content: space-between;
 
-&-brand {
-  height: 32px;
-}
+  &-brand {
+    height: 32px;
+  }
 
-&-items {
-  gap: 16px;
-  display: flex;
-}
-
+  &-items {
+    gap: 16px;
+    display: flex;
+  }
 }

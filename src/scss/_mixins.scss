@@ -1,0 +1,23 @@
+
+/** CERATE A BTN COLOR VARIATION */
+@mixin btnColorVariation ($name, $color, $color-hover, $color-contrast) {
+  &.btn-#{$name} {
+    --#{$prefix}-btn-bg: #{$color};
+    --#{$prefix}-btn-color: #{$color-contrast};
+    --#{$prefix}-btn-hover-bg: #{$color-hover};
+    --#{$prefix}-btn-hover-color: #{$color-contrast};
+
+    &.btn-outline {
+      --#{$prefix}-btn-bg: transparent;
+      --#{$prefix}-btn-color: #{$color};
+      --#{$prefix}-btn-hover-bg: #{$color};
+      --#{$prefix}-btn-hover-color: #{$color-contrast};
+      --#{$prefix}-btn-border-color: #{$color};
+    }
+    &.btn-plain {
+      --#{$prefix}-btn-bg: transparent;
+      --#{$prefix}-btn-color: #{$color};
+      --#{$prefix}-btn-hover-bg: #{$color};
+    }
+  }
+}
