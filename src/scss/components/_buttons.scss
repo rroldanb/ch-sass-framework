@@ -67,48 +67,6 @@ background-color: var(--#{$prefix}-btn-bg);
 @include btnColorVariation ('primary',$color-primary, $color-primary-hover, $color-primary-contrast);
 @include btnColorVariation ('secondary',$color-secondary, $color-secondary-hover, $color-secondary-contrast);
 
-/*   &.btn-primary {
-
-    --#{$prefix}-btn-bg: #{$color-primary};
-    --#{$prefix}-btn-color: #{$color-primary-contrast};
-    --#{$prefix}-btn-hover-bg: #{$color-primary-hover};
-    --#{$prefix}-btn-hover-color: #{$color-primary-contrast};
-
-    &.btn-outline {
-      --#{$prefix}-btn-bg: transparent;
-      --#{$prefix}-btn-color: #{$color-primary};
-      --#{$prefix}-btn-hover-bg: #{$color-primary};
-      --#{$prefix}-btn-hover-color: #{$color-primary-contrast};
-      --#{$prefix}-btn-border-color: #{$color-primary};
-    }
-    &.btn-plain {
-      --#{$prefix}-btn-bg: transparent;
-      --#{$prefix}-btn-color: #{$color-primary};
-      --#{$prefix}-btn-hover-bg: #{$color-primary};
-    }
-  }
-
-  &.btn-secondary {
-
-    --#{$prefix}-btn-bg: #{$color-secondary};
-    --#{$prefix}-btn-color: #{$color-secondary-contrast};
-    --#{$prefix}-btn-hover-bg: #{$color-secondary-hover};
-    --#{$prefix}-btn-hover-color: #{$color-secondary-contrast};
-
-    &.btn-outline {
-      --#{$prefix}-btn-bg: transparent;
-      --#{$prefix}-btn-color: #{$color-secondary};
-      --#{$prefix}-btn-hover-bg: #{$color-secondary};
-      --#{$prefix}-btn-hover-color: #{$color-secondary-contrast};
-      --#{$prefix}-btn-border-color: #{$color-secondary};
-    }
-    &.btn-plain {
-      --#{$prefix}-btn-bg: transparent;
-      --#{$prefix}-btn-color: #{$color-secondary};
-      --#{$prefix}-btn-hover-bg: #{$color-secondary};
-    }
-  }
- */
 
   // SIZES
   &.btn-sm {
