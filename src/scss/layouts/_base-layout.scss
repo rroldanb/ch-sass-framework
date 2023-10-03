@@ -47,6 +47,7 @@ $footer-text-color: var(--#{$prefix}-footer-text-color, $body-text-color);
   }
 }
 
+// HERO TITLE SECTION
 .hero-section {
   padding: 96px 16px;
   background-image: linear-gradient(to right, $hero-gradient-start, $hero-gradient-end);
@@ -62,6 +63,28 @@ $footer-text-color: var(--#{$prefix}-footer-text-color, $body-text-color);
   }
 }
 
+// BASE APP SECTION
 .base-section {
   padding: 64px 0 32px;
+}
+
+//
+.preview-layout {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .btn {
+    width: 100%;
+    display: block;
+  }
+  @include md {
+    flex-direction: row;
+    .btn {
+      width: auto;
+      display: inline-block;
+    }
+  }
 }
