@@ -18,3 +18,7 @@
     flex-wrap: wrap;
   }
 }
+
+/** GENERATE `margin` & `padding` utilities */
+@include generate-spacing(margin, m);
+@include generate-spacing(padding, p);

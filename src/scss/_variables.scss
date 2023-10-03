@@ -8,6 +8,31 @@ $breakpoints: (
   xl: 1200px,
 ) !default;
 
+$spacing: (
+  0: 0rem,    // 0px
+  1: 0.25rem, // 4px
+  2: 0.5rem,  // 8px
+  3: 0.75rem, // 12px
+  4: 1rem,    // 16px
+  6: 1.5rem,  // 24px
+  8: 2rem,    // 32px
+  10: 2.5rem, // 40px
+  12: 3rem,   // 48px
+  14: 3.5rem, // 56px
+  16: 4rem,   // 64px
+
+  auto: auto,
+) !default;
+
+$directions:(
+  t: top,
+  l: left,
+  r: right,
+  b: bottom,
+  x: left right,
+  y: top bottom
+) !default;
+
 $chevron: var(--#{$prefix}-chevron, url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(100, 116, 139)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>")) !default;
 
 
