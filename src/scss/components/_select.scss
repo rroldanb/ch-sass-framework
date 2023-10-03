@@ -18,7 +18,6 @@ $select-focus-color: var(--#{$prefix}-select-focus-color, $color-slate-500);
 
   background-size: 24px auto;
   background-image: $chevron;
- // background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(100, 116, 139)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
   background-position: calc(100% - 4px) center;
 
   color: $select-text-color;
