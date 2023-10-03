@@ -8,8 +8,18 @@
 
   &-brand {
     height: 32px;
+    display: none;
+    &#logo-light {
+      @include theme(rr-coder) {
+        display: block;
+      }
+    }
+    &#logo-dark {
+      @include theme(light) {
+        display: block;
+      }
+    }
   }
-
   &-items {
     gap: 16px;
     display: flex;

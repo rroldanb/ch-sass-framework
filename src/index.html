@@ -15,11 +15,12 @@
 
   <header class="base-header">
     <nav class="container navbar">
-      <img class="navbar-brand" src="./assets/coder-dark.svg" alt="Coderhouse logo">
+      <img class="navbar-brand" id="logo-dark" src="./assets/coder-dark.svg" alt="Coderhouse logo">
+      <img class="navbar-brand" id="logo-light" src="./assets/coder-light.svg" alt="Coderhouse logo">
       <div class="navbar-items">
-        <select class="select">
+        <select class="select" id="theme-select">
           <option value="light">Light</option>
-          <option value="coder">Coder</option>
+          <option value="rr-coder">RR-Coder</option>
         </select>
       </div>
     </nav>
@@ -287,6 +288,6 @@
     <p>© 2023 Coderhouse, todos los derechos reservados.</p>
   </footer>
 
+  <script type="module" src="app.js"></script>
 </body>
-
 </html>
