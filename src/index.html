@@ -16,8 +16,8 @@
   <header class="base-header">
     <nav class="container navbar">
       <img class="navbar-brand" src="./assets/coder-dark.svg" alt="Coderhouse logo">
-      <div>
-        <select class="navbar-items">
+      <div class="navbar-items">
+        <select class="select">
           <option value="light">Light</option>
           <option value="coder">Coder</option>
         </select>
@@ -27,27 +27,31 @@
 
   <main class="base-content">
 
-    <section class="hero-section"> <!-- Titulo -->
+    <!-- Titulo -->
+    <section class="hero-section">
       <div class="container">
         <h1 class="hero-tittle">Creando un framework de estilos con SASS</h1>
       </div>
     </section>
 
-    <div class="container"> <!-- Contenido-->
-      <section class="base-section"> <!-- Preview -->
+    <!-- Contenido-->
+    <div class="container">
+      <!-- Preview -->
+      <section class="base-section">
         <h2>Preview</h2>
         <p>Sed ultricies dolor non ante vulputate hendrerit. Vivamus sit amet suscipit sapien. Nulla iaculis eros a elit
           pharetra egestas.</p>
 
-        <form>
-          <input type="text" name="name" placeholder="Nombre" required>
-          <input type="email" name="email" placeholder="Correo electrónico" required>
+        <form >
+          <input class="input" type="text" name="name" placeholder="Nombre" required>
+          <input class="input" type="email" name="email" placeholder="Correo electrónico" required>
 
           <button class="btn btn-primary btn-sm" type="submit">Subscribirse</button>
         </form>
       </section>
 
-      <section class="base-section"> <!-- Tipografía -->
+      <!-- Tipografía -->
+      <section class="base-section">
         <h2>Tipografía</h2>
         <p>Aliquam lobortis vitae nibh nec rhoncus. Morbi mattis neque eget efficitur feugiat. Vivamus porta nunc a erat
           mattis, mattis feugiat turpis pretium. Quisque sed tristique felis.</p>
@@ -90,42 +94,43 @@
         </p>
       </section>
 
-      <section class="base-section"> <!-- Botones -->
+      <!-- Botones -->
+      <section class="base-section">
         <h2>Botones</h2>
 
         <h3>Por defecto</h3>
         <div class="flex-container">
-          <button class="btn" >Relleno</button>
-          <button class="btn btn-outline" >Bordeado</button>
-          <button class="btn btn-plain" >Plano</button>
+          <button class="btn">Relleno</button>
+          <button class="btn btn-outline">Bordeado</button>
+          <button class="btn btn-plain">Plano</button>
         </div>
 
         <h3>Primario</h3>
         <div class="flex-container">
-          <button class="btn btn-primary" >Relleno</button>
-          <button class="btn btn-outline btn-primary" >Bordeado</button>
-          <button class="btn btn-plain btn-primary" >Plano</button>
+          <button class="btn btn-primary">Relleno</button>
+          <button class="btn btn-outline btn-primary">Bordeado</button>
+          <button class="btn btn-plain btn-primary">Plano</button>
         </div>
 
         <h3>Secundario</h3>
         <div class="flex-container">
-          <button class="btn btn-secondary" >Relleno</button>
-          <button class="btn btn-outline btn-secondary" >Bordeado</button>
-          <button class="btn btn-plain btn-secondary" >Plano</button>
+          <button class="btn btn-secondary">Relleno</button>
+          <button class="btn btn-outline btn-secondary">Bordeado</button>
+          <button class="btn btn-plain btn-secondary">Plano</button>
         </div>
 
         <h3>Tamaños</h3>
         <div class="flex-container">
-          <button class="btn btn-sm" >Pequeño</button>
-          <button class="btn" >Mediano</button>
-          <button class="btn btn-lg" >Grande</button>
+          <button class="btn btn-sm">Pequeño</button>
+          <button class="btn">Mediano</button>
+          <button class="btn btn-lg">Grande</button>
         </div>
 
         <h3>Bloque</h3>
         <div class="flex-container wrap">
-          <button class="btn btn-block" >Boton block por defecto</button>
-          <button class="btn btn-block btn-primary" >Boton block primary</button>
-          <button class="btn btn-block btn-secondary" >Boton block secondary</button>
+          <button class="btn btn-block">Boton block por defecto</button>
+          <button class="btn btn-block btn-primary">Boton block primary</button>
+          <button class="btn btn-block btn-secondary">Boton block secondary</button>
         </div>
 
         <h3>Desabilitados</h3>
@@ -136,11 +141,13 @@
         </div>
       </section>
 
-      <section class="base-section"> <!-- Cards -->
+      <!-- Cards -->
+      <section class="base-section">
         <h2>Cards</h2>
-
-        <div class="flex-container"> <!-- Contenedor Carta 1 - 1 img 1 h5 1p 1 action -->
-          <div class="card"> <!-- Carta 1 - 1 img 1 h5 1p 1 action -->
+        <!-- Contenedor Cartas -->
+        <div class="flex-container">
+          <!-- Carta 1 - 1 img 1 h5 1p 1 action -->
+          <div class="card">
             <img class="card-image" src="https://picsum.photos/540/720">
             <div>
               <h5 class="card-title">Card example</h5>
@@ -155,10 +162,8 @@
               </div>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="flex-container">  -->
-          <!-- Contenedor Carta 2 - 1 img 1 h5 1p 2 action -->
-          <div class="card"> <!-- Carta 2 - 1 img 1 h5 1p 2 action -->
+          <!-- Carta 2 - 1 img 1 h5 1p 2 action -->
+          <div class="card">
             <img class="card-image" src="https://picsum.photos/720/480">
 
             <div>
@@ -175,10 +180,8 @@
               </div>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="flex-container">  -->
-          <!-- Contenedor Carta 3 - 0 img 1 h5 1p 1 action -->
-          <div class="card"> <!-- Carta 3 - 0 img 1 h5 1p 1 action -->
+          <!-- Carta 3 - 0 img 1 h5 1p 1 action -->
+          <div class="card">
             <h5 class="card-title">Card example 3</h5>
 
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
@@ -190,10 +193,8 @@
               <a href="#" class="btn btn-sm btn-primary">Action</a>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="flex-container"> -->
-          <!-- Contenedor Carta 4 - 0 img 1 h5 1p 0 action -->
-          <div class="card"> <!-- Carta 4 - 0 img 1 h5 1p 0 action -->
+          <!-- Carta 4 - 0 img 1 h5 1p 0 action -->
+          <div class="card">
             <h5 class="card-title">Card example 4</h5>
 
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora ipsa
@@ -201,30 +202,31 @@
               eaque, modi fugit velit similique.</p>
           </div>
         </div>
-
       </section>
 
-      <section class="base-section"> <!-- Formularios -->
+      <!-- Formularios -->
+      <section class="base-section">
         <h2>Formularios</h2>
 
-        <form>
-          <div>
-            <label for="input-base">Input base</label>
-            <input type="text" id="input-base" placeholder="Input example">
-            <p>Curabitur consequat lacus at lacus porta finibus.</p>
+        <form >
+          <div class="input-container">
+            <label class="input-label" for="input-base">Input base</label>
+            <input class="input" type="text" id="input-base" placeholder="Input example">
+            <p class="input-info">Curabitur consequat lacus at lacus porta finibus.</p>
           </div>
 
-          <div>
-            <label for="invalid">Invalido</label>
-            <input type="text" id="invalid" name="invalid" placeholder="Invalido">
+          <div class="input-container">
+            <label class="input-label" for="invalid">Invalido</label>
+            <input class="input input-invalid" type="text" id="invalid" name="invalid" placeholder="Invalido">
 
-            <label for="disabled">Deshabilitado</label>
-            <input type="text" id="disabled" placeholder="Deshabilitado" disabled>
+            <label class="input-label" for="disabled">Deshabilitado</label>
+            <input class="input " type="text" id="disabled" placeholder="Deshabilitado" disabled>
           </div>
         </form>
       </section>
 
-      <section class="base-section"> <!-- Acordiones -->
+      <!-- Acordiones -->
+      <section class="base-section">
         <h2>Acordiones</h2>
 
         <div>

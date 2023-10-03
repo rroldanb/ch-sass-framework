@@ -3,14 +3,6 @@ $card-radius: var(--#{$prefix}-card-radius, 12px) !default;
 $card-border: var(--#{$prefix}-card-border, $color-slate-200) !default;
 
 .card {
-/*   overflow: hidden;
-  position: relative;
-  transition: all .3s ease;
-  box-shadow: $shadow-xl;
-  border-radius: $card-radius;
-
-  border: 1px solid $card-border;
-  background-color: $card-bg; */
 
   border: 1px solid $card-border;
   overflow: hidden;
@@ -19,10 +11,6 @@ $card-border: var(--#{$prefix}-card-border, $color-slate-200) !default;
   box-shadow: $shadow-xl;
   border-radius: $card-radius;
   background-color: $card-bg;
-
-
-
-
 
   &:hover {
     box-shadow: $shadow-md;
